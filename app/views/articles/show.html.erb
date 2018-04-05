@@ -6,4 +6,6 @@
   <strong>Text</strong>
   <%= @article.text %>
 </p>
-<%= link_to 'List of all articles', articles_path %>
+<%= link_to 'Back List of all articles', articles_path %>
+<%= link_to 'Edit', edit_article_path(@article) %>
+
